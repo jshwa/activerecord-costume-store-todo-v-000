@@ -8,5 +8,6 @@ class CreateCostumeStores < ActiveRecord::Migration
       t.boolean :open
       t.datetime :opening_time
       t.datetime :closing_time
+    end
   end
 end
