@@ -1,3 +1,3 @@
-class Costume < ActiveRecort::Base
+class Costume < ActiveRecord::Base
 
 end
