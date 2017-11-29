@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 3) do
 
-  create_table "costume", force: :cascade do |t|
+  create_table "costumes", force: :cascade do |t|
     t.string "name"
     t.integer "price"
     t.string "image_url"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "updated_at"
   end
 
-  create_table "costumestore", force: :cascade do |t|
+  create_table "costumestores", force: :cascade do |t|
     t.string "name"
     t.string "location"
     t.string "costume_inventory"
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "closing_time"
   end
 
-  create_table "hauntedhouse", force: :cascade do |t|
+  create_table "hauntedhouses", force: :cascade do |t|
     t.string "name"
     t.string "location"
     t.string "theme"
